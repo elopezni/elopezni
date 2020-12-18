@@ -1,0 +1,116 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.6em;
+}
+
+.main{
+    max-width: 950px;
+    width: 95%;
+    margin: 0 auto;
+    padding-top: 10rem;
+}
+
+header {
+    display: flex;
+    height: 100px;
+    align-items:center;
+    justify-content: space-between;
+    padding: 0.2rem 0;
+    background-color: lightgrey;
+    word-spacing: 2px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right:0;
+}
+
+header h1 img {
+    width: 100px;
+    align-self: center;
+    justify-content: space-between;
+    align-items:center;
+    float: left;
+}
+
+header nav  {
+    width: 500px;
+    margin: 0 auto;
+    align-self: center;
+    vertical-align: 35px;
+}
+
+.nav li a{
+    color: black;
+    background-color: lightgray;
+    text-decoration: none;
+    padding: 10px 12px;
+    display: block;
+   align-items: center;
+   padding: 0.5rem 1rem;
+   transition: all 0.4s linear;
+   border-radius: 5px;
+}
+
+.nav li a:hover {
+    background-color:gray;
+}
+
+ .nav > li {
+     float: left;
+ }
+
+ .nav li ul {
+     display:none;
+     position: absolute;
+     min-width: 140px;
+ }
+
+.nav li:hover > ul {
+    display: block;
+}
+
+.nav li ul li {
+    position: relative;
+}
+
+.footer {
+    background-color: lightgray;
+    padding: 4rem 0;
+    text-align: center;
+    margin-top: 6rem;
+}
+
+.main h1, img{
+    font-size:20px;
+    padding-top: 50px;
+    letter-spacing: 00.15rem;
+    align-items: center;
+}
+
+#productos{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-bottom: 10PX;
+    color: black;
+}
+#productos h3,h4{
+    text-align: center;
+    color: black;
+}
+
+#productos .texto{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: black;
+}
+#productos img{
+    width: 150px;
+    max-width: 200px;
+    height: 120px;
+    max-height: 180px;
+    padding-left: 20px;
+    padding-top: 30px;
+    margin: 30px;
+    box-shadow: none;
+}

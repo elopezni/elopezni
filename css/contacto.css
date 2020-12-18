@@ -1,0 +1,119 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.6em;
+}
+
+.main{
+    max-width: 950px;
+    width: 95%;
+    margin: 0 auto;
+    padding-top: 10rem;
+    
+}
+
+header {
+    display: flex;
+    height: 100px;
+    align-items:center;
+    justify-content: space-between;
+    padding: 0.2rem 0;
+    background-color: lightgrey;
+    word-spacing: 2px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right:0;
+}
+
+header h1 img {
+    width: 100px;
+    align-self: center;
+    justify-content: space-between;
+    align-items:center;
+    float: left;
+}
+
+header nav  {
+    width: 500px;
+    margin: 0 auto;
+    align-self: center;
+    vertical-align: 35px;
+}
+
+.nav li a{
+    color: black;
+    background-color: lightgray;
+    text-decoration: none;
+    padding: 10px 12px;
+    display: block;
+   align-items: center;
+   padding: 0.5rem 1rem;
+   transition: all 0.4s linear;
+   border-radius: 5px;
+}
+
+.nav li a:hover {
+    background-color:gray;
+}
+
+ .nav > li {
+     float: left;
+ }
+
+ .nav li ul {
+     display:none;
+     position: absolute;
+     min-width: 140px;
+ }
+
+.nav li:hover > ul {
+    display: block;
+}
+
+.nav li ul li {
+    position: relative;
+}
+
+.footer {
+    background-color: lightgray;
+    padding: 4rem 0;
+    text-align: center;
+    margin-top: 6rem;
+    align-content: flex-end;
+}
+
+.form{
+    width: 450px;
+    margin: auto;
+    background-color: black;
+    padding: 30px 40px;
+    box-sizing: border-box;
+    margin-top: 40px;
+}
+
+.form h2{
+    color: white;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+input, textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+}
+
+textarea {
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+#boton:hover{
+    cursor: pointer;
+}

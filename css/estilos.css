@@ -1,0 +1,167 @@
+
+@import url(estilosJBL.css);
+@import url(estilosUE.css);
+@import url(comparativa.css);
+@import url(contacto.css);
+@import url(reset.css);
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.6em;
+}
+
+.main{
+    max-width: 950px;
+    width: 95%;
+    margin: 0 auto;
+    padding-top: 10rem;
+}
+header {
+    display: flex;
+    height: 100px;
+    align-items:center;
+    justify-content: space-between;
+    padding: 0.2rem 0;
+    background-color: lightgrey;
+    word-spacing: 2px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right:0;
+}
+
+header h1 img {
+    width: 100px;
+    align-self: center;
+    justify-content: space-between;
+    align-items:center;
+    float: left;
+}
+
+header nav  {
+    width: 500px;
+    margin: 0 auto;
+    align-self: center;
+    vertical-align: 35px;
+}
+
+.nav li a{
+    color: black;
+    background-color: lightgray;
+    text-decoration: none;
+    padding: 10px 12px;
+    display: block;
+   align-items: center;
+   padding: 0.5rem 1rem;
+   transition: all 0.4s linear;
+   border-radius: 5px;
+}
+
+.nav li a:hover {
+    background-color:gray;
+}
+
+ .nav > li {
+     float: left;
+ }
+
+ .nav li ul {
+     display:none;
+     position: absolute;
+     min-width: 140px;
+ }
+
+.nav li:hover > ul {
+    display: block;
+}
+
+.nav li ul li {
+    position: relative;
+}
+
+.footer {
+    background-color: lightgray;
+    padding: 4rem 0;
+    text-align: center;
+    margin-top: 6rem;
+}
+
+.main img {
+    height: 300px;
+    width: 500px;
+    margin: auto;
+    display: block;
+    box-shadow: 5px 5px 0px lightgray;
+}
+
+.TextoInformativo h2{
+    font-size:20px;
+    padding-top: 50px;
+    letter-spacing: 00.15rem;
+}
+
+.descripcion p{
+    color:dimgrey;
+    line-height:35px;
+    margin-top: 15px;
+    text-align: justify;
+}
+#productosDestacados{
+    color: black;
+    background: lightgray;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#productosDestacados h3,h4{
+    text-align: center;
+}
+#productosDestacados .textoInformativo{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#productosDestacados img{
+    width: 100%;
+    max-width: 200px;
+    height: 100%;
+    max-height: 180px;
+    padding-left: 20px;
+    padding-top: 30px;
+    color: black;
+}
+
+#marcasDestacadas .TextoInformativo{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: black;
+}
+
+#marcasDestacadas img{
+    width: 100%;
+    max-width: 200px;
+    height: 100%;
+    max-height: 180px;
+    padding-left: 20px;
+    padding-top: 30px;
+    color: black;
+    box-shadow: none;
+}
+
+#productosDestacados h3{
+    font-size:20px;
+    padding-top: 50px;
+    letter-spacing: 00.15rem;
+    text-align: left;
+    margin-left: 5px;
+    color: black;
+}
+
+#marcasDestacadas h4{
+    font-size:20px;
+    padding-top: 50px;
+    letter-spacing: 00.15rem;
+    text-align: left;
+    color: black;
+}
+
